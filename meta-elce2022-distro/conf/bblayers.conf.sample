@@ -9,5 +9,6 @@ BBLAYERS ?= " \
   ##OEROOT##/../poky/meta-yocto-bsp \
   ##OEROOT##/../meta-rauc \
   ##OEROOT##/../meta-wb15 \
+  ##OEROOT##/../meta-ptx \
   ##OEROOT##/../meta-elce2022-distro \
   "

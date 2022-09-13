@@ -7,3 +7,6 @@
 [submodule "openembedded-core"]
 	path = openembedded-core
 	url = https://github.com/openembedded/openembedded-core.git
+[submodule "meta-ptx"]
+	path = meta-ptx
+	url = https://github.com/pengutronix/meta-ptx.git
