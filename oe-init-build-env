@@ -1,0 +1,2 @@
+export TEMPLATECONF="$PWD/meta-elce2022-distro/conf"
+. poky/oe-init-build-env "$@"
