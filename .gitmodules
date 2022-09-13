@@ -4,3 +4,6 @@
 [submodule "meta-rauc"]
 	path = meta-rauc
 	url = https://github.com/rauc/meta-rauc/
+[submodule "openembedded-core"]
+	path = openembedded-core
+	url = https://github.com/openembedded/openembedded-core.git
