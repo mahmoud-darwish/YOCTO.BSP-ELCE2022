@@ -18,6 +18,9 @@
 #
 MACHINE = "wb15"
 
+# Uncomment to accept the FSL EULA needed for firmware-imx
+#ACCEPT_FSL_EULA = "1"
+
 #
 # Where to place downloads
 #
