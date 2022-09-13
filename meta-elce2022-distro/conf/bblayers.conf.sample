@@ -1,0 +1,13 @@
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ##OEROOT##/../poky/meta \
+  ##OEROOT##/../poky/meta-poky \
+  ##OEROOT##/../poky/meta-yocto-bsp \
+  ##OEROOT##/../meta-rauc \
+  ##OEROOT##/../meta-wb15 \
+  ##OEROOT##/../meta-elce2022-distro \
+  "
