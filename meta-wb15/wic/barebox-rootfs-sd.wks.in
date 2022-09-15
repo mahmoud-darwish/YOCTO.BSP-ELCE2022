@@ -3,6 +3,7 @@
 # between MBR and first partition that contains the root-FS.
 
 part barebox --source rawcopy --sourceparams="file=${BAREBOX_IMAGE},skip=1024" --offset 1 --no-table
-part / --source rootfs --fstype=ext4 --label root --align 1024
+part / --source rootfs --fstype=ext4 --label rootA --align 1024
+part / --source rootfs --fstype=ext4 --label rootB --align 1024
 
 bootloader --ptable msdos

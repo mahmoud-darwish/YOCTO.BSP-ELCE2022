@@ -2291,7 +2291,7 @@ new file mode 100644
 index 000000000000..e5c3fc1587f5
 --- /dev/null
 +++ b/arch/arm/dts/imx8mm-innocomm-wb15-evk.dts
-@@ -0,0 +1,60 @@
+@@ -0,0 +1,70 @@
 +// SPDX-License-Identifier: (GPL-2.0 OR MIT)
 +
 +/dts-v1/;
@@ -2328,9 +2328,14 @@ index 000000000000..e5c3fc1587f5
 +			reg = <0x0 0x0 0x0 0x100000>;
 +		};
 +
-+		partition@e0000 {
++		partition@100000 {
 +			label = "barebox-environment";
 +			reg = <0x0 0x100000 0x0 0x100000>;
++		};
++
++		statepartition: partition@200000 {
++			label = "barebox-state";
++			reg = <0x0 0x200000 0x0 0x100000>;
 +		};
 +	};
 +};
@@ -2346,9 +2351,14 @@ index 000000000000..e5c3fc1587f5
 +			reg = <0x0 0x0 0x0 0x100000>;
 +		};
 +
-+		partition@e0000 {
++		partition@100000 {
 +			label = "barebox-environment";
 +			reg = <0x0 0x100000 0x0 0x100000>;
++		};
++
++		statepartition: partition@200000 {
++			label = "barebox-state";
++			reg = <0x0 0x200000 0x0 0x100000>;
 +		};
 +	};
 +};
