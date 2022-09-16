@@ -1,0 +1,9 @@
+This project was hacked on the premises of the Embedded Linux Conference 2022
+as an example on how to integrate board support for an i.MX8M-based board into
+a new Yocto BSP using upstream components as opposed to vendor patches.
+
+It's hoped it serves as a useful starting point. There's still some work
+to do for everything to work completely out of the box, so pull requests
+are more than welcome. :)
+
+https://osseu2022.sched.com/event/15zDg/from-zero-to-ab-swimming-upstream-with-yocto-barebox-and-rauc-roland-hieber-ahmad-fatoum-pengutronix-ek
